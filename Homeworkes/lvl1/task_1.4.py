@@ -40,3 +40,5 @@ for name_product, code in titles.items():
         price = goods['price']
         cost += quantity * price
     print(name_product, '-', quantity, 'шт, стоимость', cost, 'руб')
+    
+#  Тут все хорошо)
