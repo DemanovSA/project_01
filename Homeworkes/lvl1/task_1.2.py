@@ -75,3 +75,17 @@ print(f'Три песни звучат {round(ans, 2)} минут')
 print(datetime.time(hour, minutes, seconds).strftime('%H:%M:%S'))
 print(datetime.time(hour, minutes, seconds).strftime('%M:%S'))
 print(datetime.time(hour, minutes, seconds).strftime('%M минут %S секунд'))
+
+# Супер
+# у меня был следующий вариант решения задачи (на примере списка)
+from datetime import timedelta
+from math import modf
+from random import random
+
+total_time = timedelta()
+
+for song in sample(my_favorite_songs, 3):
+    s, m = modf(song[1])
+    total_time += timedelta(minutes=int(m), seconds=int(s * 100))
+
+print(f'Три песни звучат {total_time} минут')
