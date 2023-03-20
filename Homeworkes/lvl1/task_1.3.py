@@ -35,3 +35,4 @@ else:
         days_in_month = 31
         print(f'Вы ввели {namemonth.lower()}. {days_in_month} день')
         
+# Ну можно было и без datetime) но все ок)
