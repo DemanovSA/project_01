@@ -12,3 +12,6 @@ my_favorite_songs = 'Waste a Moment, Staying\' Alive, A Sorta Fairytale, Start M
 # pprint(dir(my_favorite_songs))
 newplaylist = my_favorite_songs.split(', ')
 print(newplaylist[0], newplaylist[4], newplaylist[1], newplaylist[3])
+
+# Отлично!
+# Без нареканий
