@@ -51,3 +51,9 @@ def remove_word_with_one_em(s):
 s = input('Введите строку: ').split(" ")
 tmp = " ".join(remove_word_with_one_em(s))
 print(tmp)
+
+# Отлично) можно покороче пункт 3
+def remove_word_with_one_em(s):
+    return ' '.join([w for w in s.split(' ') if w.count('!')!=1])
+
+print(remove_word_with_one_em("Hi! Hi!! Hi!"))
