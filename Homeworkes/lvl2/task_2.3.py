@@ -16,3 +16,4 @@ print(f'switch_it_up({number}) -> {switch_it_up(number)}')
 
 
 
+# Отлично
